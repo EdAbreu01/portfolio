@@ -1,0 +1,136 @@
+
+body{
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'IBM Plex Sans', sans-serif;
+
+/*  HEADER  */
+
+}
+.head-container{
+background-color: #240240;
+height: 120px;
+display: flex;
+align-items: center;
+}
+
+.head-contents{
+width: 70%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav-buttons{
+display: flex;
+}
+
+.nav-buttons li a{
+display: flex;
+padding: 14px 32px;
+margin-left: 4px;
+border-radius: 6px;
+font-size: 0.95em;
+font-family: 'IBM Plex Sans', sans-serif;
+transition: 0.25s;
+}
+
+.nav-buttons li a{
+text-decoration: none;
+font-style: none;
+color: #ffffff;
+}
+
+h2{
+color: #fff;
+font-family: 'IBM Plex Sans', sans-serif;
+font-weight: 900;
+font-size: 2.2em;
+}
+
+.nav-buttons li a:hover{
+background-color: #FFCE21;
+color: #022964;
+}
+
+.nav-button-contact a{
+border: 1px solid #FFCE21;
+}
+
+/*  MAIN  */
+
+
+.main-container{
+background-image: url(9020789_12552back.jpg);
+background-repeat: no-repeat;
+background-size:140%;
+background-position: 50% 50%;
+background-color:  #405473;
+height: 662px;
+display: flex;
+align-items: center;
+}
+
+.main-contents{
+width: 70%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+}
+
+.main-title{
+
+width: 40%;
+height: 400px;
+}
+
+.main-sub1{
+color: #FFCE21;
+}
+
+.main-sub{
+margin-top: 6px;
+font-family: 'IBM Plex Sans', sans-serif;
+font-weight: 100;
+text-transform:uppercase;
+line-height: 1.25em;
+}
+
+.bio{
+margin-top: 10px;
+line-height: 1.75em;
+font-family: 'IBM Plex Mono', monospace;
+font-size: 0.85em;
+color: #ffffff;
+}
+
+.btn-container{
+display: flex;
+}
+
+.main-btn{
+display: flex;
+padding: 14px 32px;
+margin-right: 14px;
+margin-top: 46px;
+border-radius: 6px;
+font-size: 0.95em;
+font-family: 'IBM Plex Sans', sans-serif;
+transition: 0.25s;
+border: none;
+background-color: #FFCE21;
+color: #022964;
+transition: 0.25s;
+}
+
+.main-btn:hover{
+background-color: #ffffff;
+color: #022964;
+ }
+
+ .image {
+    width: 35%;
+    height: 400px;
+    background-color: #FFCE21;
+ }
+    
