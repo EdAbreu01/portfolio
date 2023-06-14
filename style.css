@@ -134,3 +134,69 @@ color: #022964;
     background-color: #FFCE21;
  }
     
+
+/* ACADEMIC INFO  */
+
+.info-container{
+   background: rgb(51,96,208);
+   background: linear-gradient(321deg, rgba(51,96,208,1) 0%, rgba(149,116,231,1) 100%); 
+   width: 100%;
+   height: 700px;
+   display: flex;
+   align-items: flex-start;
+}
+
+.info-contents{
+margin-top: 100px;
+width: 70%;
+height: 500px;
+margin: auto;
+background-color: #5cf1da;
+}
+
+.academic-logros{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 12px;
+
+}
+
+img{
+   width: 100px;
+   height: 60px;
+   background-color: #FFCE21;
+   margin-right: 12px;
+}
+
+.curso-alura{
+   height:max-content;
+   background-color: azure;
+   padding: 20px;
+   display: flex;
+   align-items: center;
+
+}
+
+.curso-cs50{
+   height: max-content;
+   background-color: rgb(176, 246, 25);
+   padding: 20px;
+   display: flex;
+   align-items: center;
+}
+
+
+
+
+
+
+/*
+.academic-logros{
+   height: max-content;
+   background-color: azure;
+   padding: 20px;
+   display: flex;
+   align-items: center;
+
+}
