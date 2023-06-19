@@ -1,22 +1,29 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
 .head-contents{
 width: 80%;
 margin: auto;
 display: flex;
-justify-content: space-between;
 align-items: center;
+justify-content: space-between;
+}
+        
+.head-contents h2{
+color: #fff;
+font-family: 'IBM Plex Sans', sans-serif;
+font-weight: 900;
+font-size: 2.2em;
 }
 
-.head-contents h2{
+.button-nav-small{
+    display: flex;
     color: #fff;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 900;
-    font-size: 2.2em;
-    }
-    .nav-buttons li a{
-        display: none;
-    }
+}
+
+.nav-buttons li a{
+display: none;
+}
     
 .main-container{
 background-image: url(9020789_12552back.jpg);
@@ -27,17 +34,16 @@ display: flex;
 align-items: center;
 }
         
-        
-        .main-contents{
-        width: 80%;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        height: 390px;
-        text-align: center;
-        }
+.main-contents{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: center;
+margin-top: 60px;
+margin-bottom: 60px;
+height: 390px;
+text-align: center;
+}
 
         .main-title{
 
