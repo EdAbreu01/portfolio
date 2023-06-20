@@ -15,7 +15,7 @@ align-items: center;
 }
 
 .head-contents{
-width: 50%;
+width: 60%;
 margin: auto;
 display: flex;
 justify-content: space-between;
@@ -69,6 +69,7 @@ border: 1px solid #FFCE21;
 background-image: url(9020789_12552back.jpg);
 background-repeat: no-repeat;
 background-position: 50% 50%;
+background-size: 100% 100%;
 height: max-content;
 display: flex;
 align-items: center;
